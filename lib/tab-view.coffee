@@ -10,13 +10,15 @@ class TabView extends HTMLElement
 
     @classList.add('tab', 'sortable')
 
+    closeIcon = document.createElement('div')
+    closeIcon.classList.add('close-icon')
+    @appendChild(closeIcon)
+
     @itemTitle = document.createElement('div')
     @itemTitle.classList.add('title')
     @appendChild(@itemTitle)
 
-    closeIcon = document.createElement('div')
-    closeIcon.classList.add('close-icon')
-    @appendChild(closeIcon)
+
 
     @subscriptions = new CompositeDisposable()
 

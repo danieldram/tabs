@@ -23,11 +23,12 @@
       width: -webkit-fit-content;
 
       .title {
-        padding-right: 10px;
+        padding-left: 10px!important;
       }
     }
 
     .title {
+      padding-left:10px!important;
       overflow: hidden;
       white-space: nowrap;
       text-overflow: ellipsis;
@@ -46,18 +47,21 @@
       .octicon(x, @close-icon-size);
       position: absolute;
       top: 1px;
-      right: 10px;
+      left: 2px;
       cursor: default;
+      width:20px;
+      text-align:left !important;
     }
 
     &.modified:hover .close-icon {
       color: @background-color-info;
+      left: 10px;
     }
 
     &.modified:not(:hover) .close-icon {
       &:before { display: none; }
       top: 11px;
-      right: 11px;
+      left: 0px;
       width: 8px;
       height: 8px;
       border: 2px solid @background-color-info;
