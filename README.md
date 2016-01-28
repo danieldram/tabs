@@ -1,5 +1,5 @@
-# Tabs package [![Build Status](https://travis-ci.org/atom/tabs.svg?branch=master)](https://travis-ci.org/atom/tabs)
+# Tabs with the Close Icon on the left of the tab title.
 
-Display selectable tabs above the editor.
+Similar to the basic tabs repository, displays selectable tabs above the editor. However the close-icon is on the left as opposed to the right side of the tab title. This allows you to close tabs more easily and quickly as it will never expand with tab size.
 
-![](https://cloud.githubusercontent.com/assets/18362/10862852/c6de2de0-800d-11e5-8158-284f30aaf5d2.png)
+![](https://cloud.githubusercontent.com/assets/4514000/12640258/e94cb03c-c55d-11e5-8880-e145d8526039.png)

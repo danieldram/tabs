@@ -2,7 +2,7 @@
   "name": "tabs-close-icon-left",
   "version": "0.0.1",
   "main": "./lib/main",
-  "description": "Similarly displays a selectable tab for each editor open but with the close-icon before tab title",
+  "description": "Similarly displays a selectable tab for each editor open but with the close-icon before tab title (on left rather than right, for quicker easier closing of tabs.)",
   "license": "MIT",
   "repository": "https://github.com/danieldram/tabs",
   "engines": {
